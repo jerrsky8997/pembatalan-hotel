@@ -1,0 +1,22 @@
+name: prediksi_pembatalan_hotel
+description: "aplikasi prediksi pembatalan hotel"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0 # Tambahan package untuk komunikasi ke API backend Python
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
